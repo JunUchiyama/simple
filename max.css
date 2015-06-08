@@ -1,0 +1,348 @@
+/*div {
+    outline: 1px solid red;
+}*/
+/*
+body {
+    background-color: #dcdcdc;
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Yantramanav:100);
+
+.columns {
+    float: left;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*ヘッダー*/
+.header {
+    width: 1000px;
+    height: 600px;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+}
+
+.tel {
+    width: 700px;
+    height: 100px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.teltime {
+    font-size: 15px;
+}
+
+.holiday {
+    font-size: 12px;
+}
+
+.link {
+    width: 1000px;
+    height: 30px;
+}
+
+.link li {
+    float: left;
+    display: block;
+    width: 166px;
+    height: 30px;
+}
+
+.topimage {
+    width: 1000px;
+    height: 470px;
+}
+
+.topimage img {
+    padding: 40px 0 0 40px;
+}
+
+/*初めての診療される方*/
+.greeting {
+    width: 1000px;
+    height: 800px;
+}
+
+.greeting-img {
+    width: 250px;
+}
+
+.greeting-text {
+    width: 750px;
+    height: 350px;
+}
+
+.greeting-text span, .greeting-text ul {
+    line-height: 40px;
+}
+
+.greeting-text ul {
+    padding: 30px;
+}
+
+.arrow-down {
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+}
+
+.guide-area {
+    width: 1000px;
+    height: 450px;
+    text-align: center;
+}
+
+.guide {
+    width: 333px;
+    height: 333px;
+}
+
+.guide p {
+    font-size: 15px;
+}
+
+.guide span {
+    font-size: 50px;
+}
+
+/*診療メニュー*/
+.menu {
+    width: 1000px;
+    height: 1000px;
+}
+
+.area-title {
+    width: 1000px;
+    height: 60px;
+}
+
+.area-title p {
+    font-size: 15px;
+    color: #d3d3d3;
+}
+
+.area-title span {
+    font-size: 25px;
+    color: #000;
+}
+
+hr {
+    width: 300px;
+    background-color: #99ffff;
+    text-align: left;
+    margin: 3px;
+}
+
+/*ギャラリー*/
+.gallery {
+    width: 1000px;
+    margin-bottom: 100px;
+}
+
+.gallery .area-title {
+    margin-bottom: 60px;
+}
+
+#main-photo {
+    position: relative;
+    height: 480px;
+}
+
+#main-photo img {
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+
+.main-photoArea {
+    /*outline: 1px solid #cc0000;*/
+    position: relative;
+    width: 680px;
+    height: 480px;
+}
+
+.main-photoArea p {
+    position: absolute;
+    top: -6%;
+    left: 5%;
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    font-size: 35px;
+    line-height: 170%;
+    z-index: 100;
+}
+
+.main-photoArea span {
+    color: #c89e1f;
+}
+
+/*サムネイルフォトエリア*/
+    .thumnail-photoArea {
+        width: 320px;
+    }
+
+    #thumbnail li {
+        position: relative;
+        float: left;
+        width: 160px;
+        height: 160px;
+    }
+
+    #thumbnail li img {
+        width: 100%;
+        opacity: 1;
+        filter: alpha(opacity=100); 
+    }
+
+    #thumbnail li.current img {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+
+    #thumbnail span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: #fff;
+        font-family: 'Yantramanav', sans-serif;
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    
+
+
+/*プロフィール*/
+.profile-area {
+    width: 1000px;
+    height: 673px;
+} 
+
+.profile {
+    width: 333px;
+    height: 333px;
+}
+
+.profile-text {
+    font-size: 25px;
+    padding: 100px 10px;
+}
+
+.name {
+    width: 1000px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.list {
+    width: 80px;
+    height: 300px;
+}
+
+.list-area {
+    width: 420px;
+    height: 300px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.list-area li {
+    list-style-type: none;
+}
+
+/*当医院へのアクセス*/
+.access-area {
+    width: 1000px;
+    height: 800px;
+}
+
+.map {
+    width: 1000px;
+    height: 400px;
+}
+
+.access-title {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+    background: url(images/access-title.png) 50% no-repeat;
+}
+
+.access-title p, .access-title hr {
+    position: relative;
+    top: 21px;
+    left: 40px;
+}
+
+.how-to {
+    width: 333px;
+    height: 150px;
+}
+
+.how-to p {
+    font-size: 12px;
+    padding-bottom: 30px; 
+}
+
+.how-to span {
+    font-size: 20px;
+}
+
+/*当医院へのお問い合わせ*/
+.contact-area {
+    width: 1000px;
+    height: 200px;
+}
+
+.contact {
+    width: 450px;
+    height: 200px;
+    text-align: center;
+}
+
+#contact-tel {
+    padding-top: 50px;
+    font-size: 20px;
+    color: #000;
+}
+
+#contact-time {
+    font-size: 15px;
+    color: #000;
+}
+
+/*フッター*/
+.footer {
+    width: 1000px;
+    height: 39px;
+}
+
+.footer-logo {
+    width: 500px;
+    height: 39px;
+}
+
+.footer-logo img {
+    width: 200px;
+    height: auto;
+    padding-left: 50px;
+}
+
+.footer-text {
+    width: 500px;
+    height: 39px;
+    text-align: right;
+}
+
+.footer-text p {
+    padding: 10px 20px 0 0;
+}
