@@ -175,7 +175,7 @@ hr {
     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     font-size: 35px;
     line-height: 170%;
-    z-index: 100;
+    z-index: 10;
 }
 
 .main-photoArea span {
