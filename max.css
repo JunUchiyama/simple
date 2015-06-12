@@ -21,6 +21,7 @@ body {
 .header {
     width: 1000px;
     height: 600px;
+    padding-top: 50px;
 }
 
 .logo {
@@ -32,11 +33,17 @@ body {
     width: 700px;
     height: 100px;
     text-align: right;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.tel p {
+    padding-top: 5px;
+    padding-right: 50px;
+    font-family: arial black;
 }
 
 .teltime {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .holiday {
@@ -67,16 +74,26 @@ body {
 /*初めての診療される方*/
 .greeting {
     width: 1000px;
-    height: 800px;
+    height: 848px;
 }
 
 .greeting-img {
-    width: 250px;
+    width: 330px;
+}
+
+.greeting-img img {
+    padding-left: 50px;
 }
 
 .greeting-text {
-    width: 750px;
+    width: 669px;
     height: 350px;
+    font-size: 15px;
+    border-left: 1px solid rgb(199, 199, 199);
+}
+
+.greeting-text p, .greeting-text ul {
+    padding-left: 30px;
 }
 
 .greeting-text span, .greeting-text ul {
@@ -84,6 +101,7 @@ body {
 }
 
 .greeting-text ul {
+    list-style-position: inside;
     padding: 30px;
 }
 
@@ -95,21 +113,35 @@ body {
 
 .guide-area {
     width: 1000px;
-    height: 450px;
+    height: 398px;
     text-align: center;
+    font-size: 25px;
 }
 
 .guide {
+    padding-top: 40px;
     width: 333px;
     height: 333px;
+    position: relative;
+}
+
+.guide img {
+    width: 230;
+    height: auto;
+    border-radius: 160px;
 }
 
 .guide p {
-    font-size: 15px;
+    padding: 15px 0;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .guide span {
-    font-size: 50px;
+    font-size: 90px;
+    position: absolute;
+    bottom: 90px;
+    right: 55px;
 }
 
 /*診療メニュー*/
@@ -190,7 +222,9 @@ hr {
     #thumbnail li {
         position: relative;
         float: left;
+        max-width: 160px;
         width: 160px;
+        min-width: 160px;
         height: 160px;
     }
 
@@ -226,7 +260,17 @@ hr {
 
 .profile {
     width: 333px;
-    height: 333px;
+    height: 240px;
+}
+
+.profile img {
+    width: 230;
+    height: auto;
+    border-radius: 160px;
+}
+
+.profile-img{
+    text-align: center;
 }
 
 .profile-text {
@@ -237,8 +281,9 @@ hr {
 .name {
     width: 1000px;
     height: 40px;
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .list {
@@ -246,25 +291,37 @@ hr {
     height: 300px;
 }
 
+.list p {
+    color: #87CEEB;
+}
+
 .list-area {
     width: 420px;
     height: 300px;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 30px;
+}
+
+.list-area table {
+    text-align: left;
+    font-size: 13px;
+    line-height: 30px;
+    color: rgb(150, 150, 150);
 }
 
 .list-area li {
     list-style-type: none;
+    color: rgb(150, 150, 150);
 }
 
 /*当医院へのアクセス*/
 .access-area {
-    width: 1000px;
-    height: 800px;
+    width: 100%;
+    height: 600px;
 }
 
 .map {
-    width: 1000px;
+    width: 100%;
     height: 400px;
 }
 
@@ -285,22 +342,32 @@ hr {
 
 .how-to {
     width: 333px;
-    height: 150px;
+    height: 200px;
 }
 
-.how-to p {
-    font-size: 12px;
-    padding-bottom: 30px; 
+.howTo-text1 {
+    font-size: 18px;
+    padding-left: 26px;
+    line-height: 30px;
 }
 
-.how-to span {
-    font-size: 20px;
+.howTo-text2 {
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: center; 
+    padding-top: 20px;
+}
+
+.boder {
+    border-left: 1px solid rgb(199, 199, 199); 
 }
 
 /*当医院へのお問い合わせ*/
 .contact-area {
     width: 1000px;
     height: 200px;
+    padding-top: 30px;
+    border: 1px solid #99ffff;
 }
 
 .contact {
@@ -324,6 +391,7 @@ hr {
 .footer {
     width: 1000px;
     height: 39px;
+    padding: 20px 0;
 }
 
 .footer-logo {
@@ -332,9 +400,9 @@ hr {
 }
 
 .footer-logo img {
-    width: 200px;
+    width: 150px;
     height: auto;
-    padding-left: 50px;
+    padding-left: 90px;
 }
 
 .footer-text {
@@ -344,5 +412,6 @@ hr {
 }
 
 .footer-text p {
-    padding: 10px 20px 0 0;
+    font-size: 11px;
+    padding-right: 50px;
 }

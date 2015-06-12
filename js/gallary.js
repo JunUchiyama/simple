@@ -17,14 +17,6 @@ $(function(){
         // 親ボックスと li 要素に max-width 指定
         $('#photo_container').css('maxWidth', options.maxWidth);
          
-        // li 要素の横幅の計算と指定
-        var liWidth = Math.floor((options.thumbMaxWidth / options.maxWidth) * 100);
-        $('#thumbnail li').css({
-            width : liWidth + '%',
-            maxWidth : options.thumbMaxWidth,
-            minWidth : options.thumbMinWidth
-        });
-         
         // 最初の画像の div#main-photo へ表示と current クラスを指定
         img = img.attr({
                 src: $(thumbList[0]).attr('href'),
