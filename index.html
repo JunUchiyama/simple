@@ -20,12 +20,12 @@
             </div>
             <div class="link columns">
                 <ul>
-                    <li>初めて診療される方</li>
-                    <li>診療メニュー</li>
-                    <li>施設紹介</li>
-                    <li>アクセス</li>
-                    <li>お問い合わせ</li>
-                    <li>ブログ</li>
+                    <li><a href="#greeting">初めて診療される方</a></li>
+                    <li><a href="#menu">診療メニュー</a></li>
+                    <li><a href="#gallery">施設紹介</a></li>
+                    <li><a href="#gmap">アクセス</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                    <li><a href="#">ブログ</a></li>
                 </ul>
             </div>
             <div class="topimage columns">
@@ -33,7 +33,7 @@
             </div>
         </div>
 <!-- 初めての診療される方 -->
-        <div class="greeting columns">
+        <div id="greeting" class="greeting columns">
             <div class="greeting-img columns">
                 <img src="images/01area-title.png">
             </div>
@@ -69,7 +69,7 @@
             </div>
         </div> 
 <!-- 診療メニュー -->
-        <div class="menu columns">
+        <div id="menu" class="menu columns">
             <div class="area-title columns">
                 <p><span>診療メニュー一覧</span><hr></p>
                 <p>CLINICMENU</p>
@@ -78,7 +78,7 @@
 <!-- ギャラリー -->
         <div id="photo_container" class="gallery columns">
             <div class="area-title columns">
-                <p><span>当医院の施設内ギャラリー</span><hr></p>
+                <p id="gallery" ><span>当医院の施設内ギャラリー</span><hr></p>
                 <p>CLINICGALLERY</p>
             </div>
             <div id="main-photo" class="main-photoArea columns">
@@ -190,42 +190,42 @@
         
 <!-- 当医院へのお問い合わせ -->
         <div class="contact-area columns">
-            <div class="area-title contact columns">
+            <div id="contact" class="area-title contact columns">
                 <p><span>当医院に関するお問い合わせ</span></p>
                 <p>CONTACTUS</p>
                 <p id="contact-tel">0002-000-000</p>
                 <p id="contact-time">受付時間/9:00~17:00</p>
             </div>
-            <div class="columns">
-                <p>診療時間</p>
+            <div class="area-title table-area columns">
+                <p><span>診療時間</span></p>
                 <p>CONTACTUS</p>
                 <table>
                     <tr>
-                    <td></td>
-                    <td>月</td>
-                    <td>火</td>
-                    <td>水</td>
-                    <td>木</td>
-                    <td>金</td>
-                    <td>土・日</td>
+                    <th></th>
+                    <th>月</th>
+                    <th>火</th>
+                    <th>水</th>
+                    <th>木</th>
+                    <th>金</th>
+                    <th>土・日</th>
                     </tr>
                     <tr>
                     <td>9:00~13:00</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>◯</td>
+                    <td>◯</td>
+                    <td>◯</td>
+                    <td>×</td>
+                    <td>◯</td>
+                    <td>×</td>
                     </tr>
                     <tr>
                     <td>14:30~18:00</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>◯</td>
+                    <td>◯</td>
+                    <td>◯</td>
+                    <td>×</td>
+                    <td>◯</td>
+                    <td>×</td>
                     </tr>
                 </table>
             </div>

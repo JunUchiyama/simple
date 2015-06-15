@@ -317,7 +317,7 @@ hr {
 /*当医院へのアクセス*/
 .access-area {
     width: 100%;
-    height: 600px;
+    height: 800px;
 }
 
 .map {
@@ -330,7 +330,7 @@ hr {
     height: 100px;
     position: relative;
     left: 100px;
-    bottom: 25px;
+    bottom: -25px;
     background: url(images/access-title.png) 50% no-repeat;
 }
 
@@ -365,8 +365,8 @@ hr {
 /*当医院へのお問い合わせ*/
 .contact-area {
     width: 1000px;
-    height: 200px;
-    padding-top: 30px;
+    height: 220px;
+    margin-top: 30px;
     border: 1px solid #99ffff;
 }
 
@@ -374,17 +374,40 @@ hr {
     width: 450px;
     height: 200px;
     text-align: center;
+    padding-top: 20px;
+}
+
+.contact span {
+    font-size: 18px;
 }
 
 #contact-tel {
     padding-top: 50px;
-    font-size: 20px;
+    font-size: 30px;
     color: #000;
 }
 
 #contact-time {
-    font-size: 15px;
+    font-size: 20px;
     color: #000;
+}
+
+.table-area {
+    width: 549px;
+    height: 200px;
+    border-left: 1px solid rgb(199, 199, 199); 
+    text-align: center;
+    padding-top: 20px;
+}
+
+.table-area span {
+    font-size: 18px;
+}
+
+.table-area table th, .table-area table td{
+    width: 100px;
+    height: 50px;
+    text-align: center;
 }
 
 /*フッター*/
